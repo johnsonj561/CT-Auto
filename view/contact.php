@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Contact C & T Auto to schedule appointments or ask any questions regarding your vehicle's reapirs.">
+    <meta name="description" content="Contact C & T Auto Care to schedule appointments or ask any questions regarding your vehicle's reapirs.">
     <meta name="author" content="C & T Auto">
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <link rel="icon" type="image/x-icon" href="../img/wrench-gear-favicon-16-16.png" />
-    <title>C &amp; T Auto | Contact</title>
+    <title>C &amp; T Auto Care | Contact</title>
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -23,7 +23,7 @@
           <div class="box">
             <div class="col-lg-12">
               <br>
-              <h2 class="intro-text text-center">Contact C &amp; T Auto To Schedule Appointments and Ask Any Questions</h2>
+              <h2 class="intro-text text-center">Contact C &amp; T Auto Care To Schedule Appointments and Ask Any Questions</h2>
               <hr class="paragraph-divier">
               <div class="col-lg-7">
 
@@ -68,13 +68,13 @@
                     <a href="tel:+15619097795" class="contact-link">561-629-7214</a>
                   </p>
                   <p><strong>Email: </strong>
-                    <a href="mailto:name@example.com" class="contact-link">ct-auto@gmail.com</a>
+                    <a href="mailto:name@example.com" class="contact-link">candtautocare@yahoo.com</a>
                   </p>
                   <p><strong>Location:</strong> 
                     <a class="contact-link" target="_blank"
                        href="https://www.google.com/maps/place/1260+Plaza+Cir,+West+Palm+Beach,+FL+33404/data=!4m2!3m1!1s0x88d8d4f234f64211:0x4292d655348e98bb?sa=X&ved=0CB0Q8gEwAGoVChMI0dLBtKexxwIVCJ2ACh12iQok">1260 Plaza Circle</a>
                   </p>
-                  <p class="location-line-2">Singer Island, FL 33407</p>
+                  <p class="location-line-2">Singer Island, FL 33404</p>
                 </div>
               </div>
               <div class="col-lg-3">
