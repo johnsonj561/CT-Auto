@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="C & T Auto Care - Singer Island's Trusted Mechanic">
+    <meta name="author" content="C & T Auto Care">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
     <link rel="icon" type="image/x-icon" href="img/wrench-gear-favicon-16-16.png" />
     <title>C &amp; T Auto</title>
     <!-- Bootstrap Core CSS -->
@@ -27,7 +28,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">C &amp; T Auto | Singer Island, FL</a>
+          <a class="navbar-brand" href="index.php">C &amp; T Auto Care | Singer Island, FL</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
@@ -53,10 +54,10 @@
           <!-- Jumbotron Header -->
           <header class="jumbotron black-border hero-spacer-left">
             <div class="text-center">
-              <h1 class="jumbotron-title">Singer Island Auto Service</h1>
+              <h1 class="jumbotron-title">Singer Island Auto Care</h1>
               <!-- <h1><a href="tel:+15619097795" class="contact-link">561-629-7214</a></h1>  -->
             </div>
-            <h2 class="text-center slogan">Providing automobile services to Singer Island, Riviera Beach, and West Palm Beach since
+            <h2 class="text-center slogan">Repairing cars and trucks for Singer Island, Riviera Beach, Palm Beach Gardens, and West Palm Beach since
               1992</h2> 
             <p class="text-center">
               <a href="tel:561-629-7214" class="btn btn-primary btn-large mobile-only call-now">
@@ -210,7 +211,7 @@ More Info</a>
                   <a href="view/contact.php">Contact</a>
                 </li>
               </ul>
-              <p class="copyright text-muted small">Copyright &copy; C &amp; T Auto. All Rights Reserved</p>
+              <p class="copyright text-muted small">Copyright &copy; C &amp; T Auto Care. All Rights Reserved</p>
             </div>
             <div class="col-lg-6">
               <p class="copyright text-muted medium pull-right">
