@@ -62,7 +62,8 @@
           </header>
         </div>
         <div class="col-lg-4 hero-spacer">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14247.030111687036!2d-80.04179645375056!3d26.783997999909158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d4f234f64211%3A0x4292d655348e98bb!2s1260+Plaza+Cir%2C+West+Palm+Beach%2C+FL+33404!5e0!3m2!1sen!2sus!4v1439737715695" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <img class="img-responsive mobile-only" src="img/ct-auto-google-map-400x400.jpg" alt="C & T Auto Google Map">
+          <iframe class="pc-only" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14247.030111687036!2d-80.04179645375056!3d26.783997999909158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d4f234f64211%3A0x4292d655348e98bb!2s1260+Plaza+Cir%2C+West+Palm+Beach%2C+FL+33404!5e0!3m2!1sen!2sus!4v1439737715695" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
           <div class="text-center image-description"><p>Located on the South East corner of Singer Island. Take 
             Blue Heron Blvd East over the bridge to Singer Island. Find us on your right hand side, across 
             from Grator Gator Food Market.</p>
@@ -80,7 +81,7 @@
             <img src="img/engine-repairs-500x300.jpg" alt="Engine diagnostic and repair">
             <div class="caption">
               <h2 class="thumbnail-title">Engine Repairs</h2>
-              <p>Our experienced staff is familiar with all major vehicle engines.</p>
+              <p>Our experienced staff is equipped to handle all major engine repairs.</p>
             </div>
           </div>
         </div>
@@ -97,7 +98,7 @@
           <div class="thumbnail">
             <img src="img/engine-warning-lights-500x300.jpg" alt="Engine warning lights">
             <div class="caption">
-              <h2 class="thumbnail-title">Vehicle Diagnostics</h2>
+              <h2 class="thumbnail-title">Diagnostics</h2>
               <p>Have your vehicle diagnosed to ensure it is running efficiently.</p>
             </div>
           </div>
@@ -144,7 +145,7 @@
           <div class="thumbnail">
             <img src="img/engine-diagnostics-500x300.jpg" alt="Vehicle tune up services">
             <div class="caption">
-              <h2 class="thumbnail-title">Vehicle Tune Ups</h2>
+              <h2 class="thumbnail-title">Tune Ups</h2>
               <p>Have your vehicle tested and tuned to provide maximum performance.</p>
             </div>
           </div>
