@@ -3,7 +3,7 @@ $name = strip_tags($_POST['name']);
 $email = strip_tags($_POST['email']);
 $phoneNumber = strip_tags($_POST['phoneNumber']);
 $message = strip_tags($_POST['message']);
-$headers = "From: www.ctautorepairs.com\r\n";
+$headers = "From: www.cntautocare.com\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
@@ -26,7 +26,7 @@ $emailMessage =
       </tr>
     </table>";
 
-$result = mail("ctautorepairs@gmail.com", "C &amp; T Auto", $emailMessage, $headers);
+$result = mail("ctautocare561@gmail.com", "C & T Auto Care", $emailMessage, $headers);
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +44,7 @@ $result = mail("ctautorepairs@gmail.com", "C &amp; T Auto", $emailMessage, $head
     <link href="../css/heroic-features.min.css" rel="stylesheet">
   </head>
   <body>
-    <?php require_once('../template/navbar.html'); ?>
+    <?php require_once('../templates/navbar.html'); ?>
     <a  name="services"></a>
     <div class="container">
       <div class="row">
