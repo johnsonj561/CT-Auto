@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,20 +8,16 @@
     <meta name="author" content="C & T Auto Care">
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <link rel="icon" type="image/x-icon" href="img/wrench-gear-favicon-16-16.png" />
-    <title>C &amp; T Auto</title>
-    <!-- Bootstrap Core CSS -->
+    <title>C &amp; T Auto Care</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/heroic-features.css" rel="stylesheet">
-
+    <link href="css/heroic-features.min.css" rel="stylesheet">
   </head>
   <body>
-    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" 
+                  data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -30,7 +25,6 @@
           </button>
           <a class="navbar-brand" href="index.php">C &amp; T Auto Care | Singer Island, FL</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li>
@@ -39,23 +33,20 @@
             <li>
               <a href="/view/contact.php">Contact</a>
             </li>
+            <li>
+          <a target="_blank" href="https://www.google.com/maps/place/1260+Plaza+Cir,+West+Palm+Beach,+FL+33404/@26.783567,-80.035563,17z/data=!3m1!4b1!4m2!3m1!1s0x88d8d4f234f64211:0x4292d655348e98bb">
+            Map</a>
+        </li>
           </ul>
         </div>
-        <!-- /.navbar-collapse -->
       </div>
-      <!-- /.container -->
     </nav>
-
-    <!-- Page Content -->
     <div class="container" name="top">
-
       <div class="col-lg-12">
         <div class="col-lg-8">
-          <!-- Jumbotron Header -->
           <header class="jumbotron black-border hero-spacer-left">
             <div class="text-center">
               <h1 class="jumbotron-title">Singer Island Auto Care</h1>
-              <!-- <h1><a href="tel:+15619097795" class="contact-link">561-629-7214</a></h1>  -->
             </div>
             <h2 class="text-center slogan">Repairing cars and trucks for Singer Island, Riviera Beach, Palm Beach Gardens, and West Palm Beach since
               1992</h2> 
@@ -72,21 +63,17 @@
         </div>
         <div class="col-lg-4 hero-spacer">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14247.030111687036!2d-80.04179645375056!3d26.783997999909158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d4f234f64211%3A0x4292d655348e98bb!2s1260+Plaza+Cir%2C+West+Palm+Beach%2C+FL+33404!5e0!3m2!1sen!2sus!4v1439737715695" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <div class="text-center image-description">Located on the South East corner of Singer Island. Take 
+          <div class="text-center image-description"><p>Located on the South East corner of Singer Island. Take 
             Blue Heron Blvd East over the bridge to Singer Island. Find us on your right hand side, across 
-            from Grator Gator Food Market.
+            from Grator Gator Food Market.</p>
           </div>
         </div>
       </div>
-
-      <!-- Title -->
       <div class="row">
         <div class="col-lg-12 title-row feature-title">
-          <h1>Automobile Services Available</h1>
+          <h1 class="services-available">Automobile Services Available</h1>
         </div>
       </div>
-
-      <!-- Page Features - ROW 1 -->
       <div class="row text-center" name="about" id="about">
         <div class="col-md-3 col-sm-6 hero-feature">
           <div class="thumbnail">
@@ -94,10 +81,6 @@
             <div class="caption">
               <h2 class="thumbnail-title">Engine Repairs</h2>
               <p>Our experienced staff is familiar with all major vehicle engines.</p>
-              <!--<p>
-<a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">
-More Info</a>
-</p> -->
             </div>
           </div>
         </div>
@@ -129,8 +112,6 @@ More Info</a>
           </div>
         </div>
       </div>
-
-      <!-- Page Features - ROW 2 -->
       <div class="row text-center" name="about" id="about">
         <div class="col-md-3 col-sm-6 hero-feature">
           <div class="thumbnail">
@@ -171,8 +152,6 @@ More Info</a>
       </div>
       <div class="row"><a href="#top">Back to Top</a></div>
     </div>
-    
-    <!-- Social Media Buttons -->
     <row class="text-center social-media">
       <ul class="share-buttons">
         <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.kbsoftwaresolutions.com&t=" 
@@ -195,8 +174,6 @@ More Info</a>
           + '&body=' +  encodeURIComponent(document.URL)); return false;"><img src="img/social-media/Email.png" alt="email-logo"></a></li>
       </ul>
     </row>
-
-    <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
@@ -209,6 +186,11 @@ More Info</a>
                 <li class="footer-menu-divider">&sdot;</li>
                 <li>
                   <a href="view/contact.php">Contact</a>
+                </li>
+                <li class="footer-menu-divider">&sdot;</li>
+                <li>
+                  <a target="_blank" href="https://www.google.com/maps/place/1260+Plaza+Cir,+West+Palm+Beach,+FL+33404/@26.783567,-80.035563,17z/data=!3m1!4b1!4m2!3m1!1s0x88d8d4f234f64211:0x4292d655348e98bb">
+                    Map</a>
                 </li>
               </ul>
               <p class="copyright text-muted small">Copyright &copy; C &amp; T Auto Care. All Rights Reserved</p>
@@ -223,9 +205,7 @@ More Info</a>
         </div>
       </div>
     </footer>
-    <!-- jQuery -->
     <script src="js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

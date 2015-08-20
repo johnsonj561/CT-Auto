@@ -31,7 +31,6 @@ $result = mail("ctautorepairs@gmail.com", "C &amp; T Auto", $emailMessage, $head
 
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,11 +39,10 @@ $result = mail("ctautorepairs@gmail.com", "C &amp; T Auto", $emailMessage, $head
     <meta name="author" content="C & T Auto">
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
     <link rel="icon" type="image/x-icon" href="../img/wrench-gear-favicon-16-16.png" />
-    <title>C &amp; T Auto | Message Received</title>
+    <title>C &amp; T Auto Care | Message Received</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/small-business.css" rel="stylesheet">
+    <link href="../css/heroic-features.min.css" rel="stylesheet">
   </head>
-
   <body>
     <?php require_once('../template/navbar.html'); ?>
     <a  name="services"></a>
@@ -59,18 +57,14 @@ $result = mail("ctautorepairs@gmail.com", "C &amp; T Auto", $emailMessage, $head
           <h3 class="text-center"><a href="../index.php">Return to Home Page</a></h3>
         </div>
         <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-          <img class="img-responsive" src="../img/mail-received.png" alt="">
+          <img class="img-responsive" src="../img/mail-received.png" alt="C & T Auto Care Message Received">
         </div>
       </div>
-      <hr class="paragraph-divier">
     </div>
-
-    <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <?php require_once('../template/social-media.html'); ?>
             <div class="col-lg-6">
               <ul class="list-inline">
                 <li>
@@ -78,33 +72,27 @@ $result = mail("ctautorepairs@gmail.com", "C &amp; T Auto", $emailMessage, $head
                 </li>
                 <li class="footer-menu-divider">&sdot;</li>
                 <li>
-                  <a href="about.php">About</a>
+                  <a href="../view/contact.phpc">Contact</a>
                 </li>
                 <li class="footer-menu-divider">&sdot;</li>
                 <li>
-                  <a href="services.php">Services</a>
-                </li>
-                <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                  <a href="contact.php">Contact</a>
+                  <a target="_blank" href="https://www.google.com/maps/place/1260+Plaza+Cir,+West+Palm+Beach,+FL+33404/@26.783567,-80.035563,17z/data=!3m1!4b1!4m2!3m1!1s0x88d8d4f234f64211:0x4292d655348e98bb">
+                    Map</a>
                 </li>
               </ul>
-              <p class="copyright text-muted small">Copyright &copy; KB Software Solutions 2015. All Rights Reserved</p>
+              <p class="copyright text-muted small">Copyright &copy; C &amp; T Auto Care. All Rights Reserved</p>
             </div>
             <div class="col-lg-6">
               <p class="copyright text-muted medium pull-right">
-                <img src="../img/kb-logo-v3-75x60.png" alt="KB Software Solutions Logo">
-                <a href="http://www.kbsoftwaresolutions.com">Website Development by KB Software Solutions</a>
+                <img src="../img/kb-logo-v3-75x60.png" alt="KB Software Solutions Web Design">
+                <a href="http://www.kbsoftwaresolutions.com" target="_blank">Website Development by KB Software Solutions</a>
               </p>
             </div>
           </div>
         </div>
       </div>
     </footer>
-    <!-- jQuery -->
     <script src="../js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/slide-toggle-nav.js"></script>
   </body>
 </html>

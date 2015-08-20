@@ -9,10 +9,8 @@
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <link rel="icon" type="image/x-icon" href="../img/wrench-gear-favicon-16-16.png" />
     <title>C &amp; T Auto Care | Contact</title>
-    <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="../css/heroic-features.css" rel="stylesheet">
+    <link href="../css/heroic-features.min.css" rel="stylesheet">
   </head>
   <body>
     <?php require_once('../templates/navbar.html'); ?>
@@ -21,7 +19,7 @@
       <div class="container contact">
         <div class="row">
           <div class="box">
-            <div class="col-lg-12">
+            <div class="col-lg-12 contact-form">
               <br>
               <h2 class="intro-text text-center">Contact C &amp; T Auto Care To Schedule Appointments and Ask Any Questions</h2>
               <hr class="paragraph-divier">
@@ -50,7 +48,6 @@
                       <label>Message</label>
                       <textarea class="form-control" rows="6" name = "message" id = "message" required></textarea>
                     </div>
-                    <!-- Error element used to display error messages to user if fields are completed correctly -->
                     <div class="form-group col-lg-9">
                       <p class = "intro-text text-center" name = "errorElement" id = "errorElement"></p>
                     </div><br>
