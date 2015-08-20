@@ -53,7 +53,7 @@
                     </div><br>
                     <div class="form-group col-lg-9 text-center">
                       <input type="hidden" name="save" value="contact">
-                      <button type="submit" class="btn btn-default btn-lg grey-blue">Send Message</button>
+                      <button type="submit" class="btn btn-primary btn-large">Send Message</button>
                     </div>
                   </div>
                 </form>
@@ -65,7 +65,7 @@
                     <a href="tel:+15619097795" class="contact-link">561-629-7214</a>
                   </p>
                   <p><strong>Email: </strong>
-                    <a href="mailto:name@example.com" class="contact-link">candtautocare@yahoo.com</a>
+                    <a href="mailto:name@example.com" class="contact-link">ctautocare561@google.com</a>
                   </p>
                   <p><strong>Location:</strong> 
                     <a class="contact-link" target="_blank"
