@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="C & T Auto Care - Singer Island's Trusted Mechanic">
+    <meta name="description" content="C & T Auto Care - Singer Island's Trusted Mechanic. Providing car and truck services to
+                                      Singer Island, Riviera Beach, West Palm Beach, and Palm Beach Gardens.">
     <meta name="author" content="C & T Auto Care">
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <link rel="icon" type="image/x-icon" href="img/wrench-gear-favicon-16-16.png" />
@@ -113,7 +114,7 @@
           </div>
         </div>
       </div>
-      <div class="row text-center" name="about" id="about">
+      <div class="row text-center">
         <div class="col-md-3 col-sm-6 hero-feature">
           <div class="thumbnail">
             <img src="img/air-conditioner-500x30.jpg" alt="Air conditioning and coolant">
@@ -155,22 +156,22 @@
     </div>
     <row class="text-center social-media">
       <ul class="share-buttons">
-        <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.kbsoftwaresolutions.com&t=" 
+        <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.cntautocare.com&t=" 
                title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' 
           + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;">
           <img src="img/social-media/Facebook.png" alt="facebook-logo"></a></li>
-        <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.kbsoftwaresolutions.com&text=:%20http%3A%2F%2Fwww.kbsoftwaresolutions.com" 
+        <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.cntautocare.com&text=:%20http%3A%2F%2Fwww.kbsoftwaresolutions.com" 
                target="_blank" 
                title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) 
           + ':%20'  + encodeURIComponent(document.URL)); return false;">
           <img src="img/social-media/Twitter.png" alt="twitter-logo"></a></li>
-        <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.kbsoftwaresolutions.com" target="_blank" 
+        <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cntautocare.com" target="_blank" 
                title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); 
           return false;"><img src="img/social-media/Google+.png" alt="google-logo"></a></li>
-        <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.kbsoftwaresolutions.com&description=" 
+        <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.cntautocare.com&description=" 
                target="_blank" title="Pin it" onclick="window.open('http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(document.URL) + '&description=' +  encodeURIComponent(document.title)); return false;">
           <img src="img/social-media/Pinterest.png" alt="pinterest-logo"></a></li>
-        <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.kbsoftwaresolutions.com" target="_blank" 
+        <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.cntautocare.com" target="_blank" 
                title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) 
           + '&body=' +  encodeURIComponent(document.URL)); return false;"><img src="img/social-media/Email.png" alt="email-logo"></a></li>
       </ul>
