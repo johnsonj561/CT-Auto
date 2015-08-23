@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /templates/
+Disallow: /fonts/
+Disallow: /landing/
+Disallow: /img/
+Disallow: /css/
+Disallow: /js/
