@@ -11,6 +11,7 @@
     <title>C &amp; T Auto Care | Contact</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/heroic-features.min.css" rel="stylesheet">
+    <?php require_once('../templates/analytics-tracking.html');?>
   </head>
   <body>
     <?php require_once('../templates/navbar.html'); ?>
@@ -20,6 +21,8 @@
         <div class="row">
           <div class="box">
             <div class="col-lg-12 contact-form">
+              <!-- Place this tag where you want the widget to render. -->
+              <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/113173493893409015902" data-rel="author"></div>
               <br>
               <h2 class="intro-text text-center">Contact C &amp; T Auto Care To Schedule Appointments and Ask Any Questions</h2>
               <hr class="paragraph-divier">
@@ -65,7 +68,7 @@
                     <a href="tel:+15619097795" class="contact-link">561-629-7214</a>
                   </p>
                   <p><strong>Email: </strong>
-                    <a href="mailto:name@example.com" class="contact-link">ctautocare561@google.com</a>
+                    <a href="mailto:candtautocare@yahoo.com" class="contact-link">candtautocare@yahoo.com</a>
                   </p>
                   <p><strong>Location:</strong> 
                     <a class="contact-link" target="_blank"
@@ -77,8 +80,8 @@
               <div class="col-lg-3">
                 <h3 class="text-center">Hours</h3>
                 <div class="contact-info">
-                  <p><strong>Monday - Friday: </strong>9:00am - 4:00pm</p>
-                  <p><strong>Saturday: </strong>9:00am - 1:00pm</p>
+                  <p><strong>Monday - Friday: </strong>8:00am - 5:00pm</p>
+                  <p><strong>Saturday: </strong>8:00am - 12:00pm</p>
                   <p><strong>Sunday: </strong>Closed</p>
                 </div>
               </div>
@@ -86,8 +89,10 @@
           </div>
         </div>
       </div>
-      <script src = "../js/validate.js"></script>
       <?php require_once('../templates/social-media.html');?>
       <?php require_once('../templates/footer.html'); ?>
+      <script src = "../js/validate.js"></script>
+      <!-- Place this tag in your head or just before your close body tag. -->
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
       </body>
     </html>

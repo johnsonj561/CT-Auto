@@ -12,6 +12,7 @@
     <title>C &amp; T Auto Care</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/heroic-features.min.css" rel="stylesheet">
+    <?php require_once('templates/analytics-tracking.html');?>
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -35,22 +36,24 @@
               <a href="/view/contact.php">Contact</a>
             </li>
             <li>
-          <a target="_blank" href="https://www.google.com/maps/place/1260+Plaza+Cir,+West+Palm+Beach,+FL+33404/@26.783567,-80.035563,17z/data=!3m1!4b1!4m2!3m1!1s0x88d8d4f234f64211:0x4292d655348e98bb">
-            Map</a>
-        </li>
+              <a target="_blank" href="https://www.google.com/maps/place/1260+Plaza+Cir,+West+Palm+Beach,+FL+33404/@26.783567,-80.035563,17z/data=!3m1!4b1!4m2!3m1!1s0x88d8d4f234f64211:0x4292d655348e98bb">
+                Map</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="container" name="top">
       <div class="col-lg-12">
+        <!-- Place this tag where you want the widget to render. -->
+        <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/113173493893409015902" data-rel="author"></div>
         <div class="col-lg-8">
           <header class="jumbotron black-border hero-spacer-left">
             <div class="text-center">
               <h1 class="jumbotron-title">Singer Island Auto Care</h1>
             </div>
             <h2 class="text-center slogan">Repairing cars and trucks for Singer Island, Riviera Beach, Palm Beach Gardens, and West Palm Beach since
-              1992</h2> 
+              2000</h2> 
             <p class="text-center">
               <a href="tel:561-629-7214" class="btn btn-primary btn-large mobile-only call-now">
                 <span class="glyphicon glyphicon-phone-alt"></span>CLICK TO CALL NOW</a>
@@ -209,5 +212,7 @@
     </footer>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </body>
 </html>
