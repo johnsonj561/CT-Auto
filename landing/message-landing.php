@@ -10,7 +10,7 @@ $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 $emailMessage = 
   "<table class='form-email-message'>
       <tr>
-        <td>C &amp; T Auto</td>
+        <td>C & T Auto Care</td>
       </tr>
       <tr>
         <td>$message</td>
@@ -26,7 +26,7 @@ $emailMessage =
       </tr>
     </table>";
 
-$result = mail("ctautocare561@gmail.com", "C & T Auto Care", $emailMessage, $headers);
+$result = mail("candtautocare@yahoo.com", "C & T Auto Care", $emailMessage, $headers);
 ?>
 
 <!DOCTYPE html>
