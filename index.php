@@ -13,6 +13,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/heroic-features.min.css" rel="stylesheet">
     <?php require_once('templates/analytics-tracking.html');?>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -155,64 +157,91 @@
           </div>
         </div>
       </div>
-      <div class="row"><a href="#top">Back to Top</a></div>
-    </div>
-    <row class="text-center social-media">
-      <ul class="share-buttons">
-        <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.cntautocare.com&t=" 
-               title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' 
-          + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;">
-          <img src="img/social-media/Facebook.png" alt="facebook-logo"></a></li>
-        <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.cntautocare.com&text=:%20http%3A%2F%2Fwww.kbsoftwaresolutions.com" 
-               target="_blank" 
-               title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) 
-          + ':%20'  + encodeURIComponent(document.URL)); return false;">
-          <img src="img/social-media/Twitter.png" alt="twitter-logo"></a></li>
-        <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cntautocare.com" target="_blank" 
-               title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); 
-          return false;"><img src="img/social-media/Google+.png" alt="google-logo"></a></li>
-        <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.cntautocare.com&description=" 
-               target="_blank" title="Pin it" onclick="window.open('http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(document.URL) + '&description=' +  encodeURIComponent(document.title)); return false;">
-          <img src="img/social-media/Pinterest.png" alt="pinterest-logo"></a></li>
-        <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.cntautocare.com" target="_blank" 
-               title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) 
-          + '&body=' +  encodeURIComponent(document.URL)); return false;"><img src="img/social-media/Email.png" alt="email-logo"></a></li>
-      </ul>
-    </row>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="col-lg-6">
-              <ul class="list-inline">
-                <li>
-                  <a href="index.php">Home</a>
-                </li>
-                <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                  <a href="view/contact.php">Contact</a>
-                </li>
-                <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                  <a target="_blank" href="https://www.google.com/maps/place/1260+Plaza+Cir,+West+Palm+Beach,+FL+33404/@26.783567,-80.035563,17z/data=!3m1!4b1!4m2!3m1!1s0x88d8d4f234f64211:0x4292d655348e98bb">
-                    Map</a>
-                </li>
-              </ul>
-              <p class="copyright text-muted small">Copyright &copy; C &amp; T Auto Care. All Rights Reserved</p>
-            </div>
-            <div class="col-lg-6">
-              <p class="pull-right">
+
+      <!-- GOOGLE+ REVIEWS -->
+      <div class="row google-reviews">
+
+        <div class="col-lg-12 title-row feature-title">
+
+          <h1 class="services-available">Read Our Reviews</h1>
+        </div>
+
+
+        <div class="col-md-6">
+          <div class="g-post" data-href="https://plus.google.com/+Cntautocare/posts/Wt9DyjFCd8o"></div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="g-post" data-href="https://plus.google.com/+Cntautocare/posts/KddGcJa4nUm"></div>
+        </div>
+
+        <div class="col-lg-12 review-button-row">
+          <p class="text-center">
+          <a href="https://www.google.com/search?q=c+%26+t+auto+care&oq=c+%26+t+auto+care&aqs=chrome.0.69i59l3j69i64.1706j0j1&sourceid=chrome&ie=UTF-8#lrd=0x88d8d4f234f64211:0xb8094e36fab12642,3,"><button class="btn btn-primary btn-large">Write A Review</button></a>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="row text-center" name="back-to-top" id="back-to-top">
+        <div class="row"><a href="#top">Back to Top</a></div>
+      </div>
+      <row class="text-center social-media">
+        <ul class="share-buttons">
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.cntautocare.com&t=" 
+                 title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' 
+            + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;">
+            <img src="img/social-media/Facebook.png" alt="facebook-logo"></a></li>
+          <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.cntautocare.com&text=:%20http%3A%2F%2Fwww.kbsoftwaresolutions.com" 
+                 target="_blank" 
+                 title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) 
+            + ':%20'  + encodeURIComponent(document.URL)); return false;">
+            <img src="img/social-media/Twitter.png" alt="twitter-logo"></a></li>
+          <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cntautocare.com" target="_blank" 
+                 title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); 
+            return false;"><img src="img/social-media/Google+.png" alt="google-logo"></a></li>
+          <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.cntautocare.com&description=" 
+                 target="_blank" title="Pin it" onclick="window.open('http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(document.URL) + '&description=' +  encodeURIComponent(document.title)); return false;">
+            <img src="img/social-media/Pinterest.png" alt="pinterest-logo"></a></li>
+          <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.cntautocare.com" target="_blank" 
+                 title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) 
+            + '&body=' +  encodeURIComponent(document.URL)); return false;"><img src="img/social-media/Email.png" alt="email-logo"></a></li>
+        </ul>
+      </row>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="col-lg-6">
+                <ul class="list-inline">
+                  <li>
+                    <a href="index.php">Home</a>
+                  </li>
+                  <li class="footer-menu-divider">&sdot;</li>
+                  <li>
+                    <a href="view/contact.php">Contact</a>
+                  </li>
+                  <li class="footer-menu-divider">&sdot;</li>
+                  <li>
+                    <a target="_blank" href="https://www.google.com/maps/place/1260+Plaza+Cir,+West+Palm+Beach,+FL+33404/@26.783567,-80.035563,17z/data=!3m1!4b1!4m2!3m1!1s0x88d8d4f234f64211:0x4292d655348e98bb">
+                      Map</a>
+                  </li>
+                </ul>
+                <p class="copyright text-muted small">Copyright &copy; C &amp; T Auto Care. All Rights Reserved</p>
+              </div>
+              <div class="col-lg-6">
+                <p class="pull-right">
                   <a href="http://www.kbsoftwaresolutions.com">
                     <img src="img/kb-logo-150x75.png" alt="KB Software Solutions Website Design"/></a>
                 </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-  </body>
-</html>
+      </footer>
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Place this tag in your head or just before your close body tag. -->
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
+      </body>
+    </html>
