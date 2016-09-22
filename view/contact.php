@@ -65,7 +65,7 @@
                 <h3 class="text-center">Contact Information</h3>
                 <div class="contact-info">
                   <p><strong>Phone: </strong>
-                    <a href="tel:+15619097795" class="contact-link">561-629-7214</a>
+                    <a href="tel:+15616297214" class="contact-link">561-629-7214</a>
                   </p>
                   <p><strong>Email: </strong>
                     <a href="mailto:candtautocare@yahoo.com" class="contact-link">candtautocare@yahoo.com</a>
