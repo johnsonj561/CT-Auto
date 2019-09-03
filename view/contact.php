@@ -12,6 +12,11 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/heroic-features.min.css" rel="stylesheet">
     <?php require_once('../templates/analytics-tracking.html');?>
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <?php require_once('../templates/navbar.html'); ?>
@@ -44,12 +49,16 @@
                     </div>
                     <div class="form-group col-lg-3">
                       <label>Phone Number</label>
-                      <input type="tel" class="form-control" name = "phoneNumber" id = "phoneNumber" required>
+                      <input type="tel" class="form-control" name = "phoneNumber" id = "phoneNumber">
                     </div>
                     <div class="clearfix"></div>
                     <div class="form-group col-lg-9">
                       <label>Message</label>
                       <textarea class="form-control" rows="6" name = "message" id = "message" required></textarea>
+                    </div>
+                    <div class="form-group col-lg-9 hidden">
+                      <label>Comments</label>
+                      <input type="text" class="form-control" name = "comments" id = "comments">
                     </div>
                     <div class="form-group col-lg-9">
                       <p class = "intro-text text-center" name = "errorElement" id = "errorElement"></p>
@@ -70,7 +79,7 @@
                   <p><strong>Email: </strong>
                     <a href="mailto:candtautocare@yahoo.com" class="contact-link">candtautocare@yahoo.com</a>
                   </p>
-                  <p><strong>Location:</strong> 
+                  <p><strong>Location:</strong>
                     <a class="contact-link" target="_blank"
                        href="https://www.google.com/maps/place/1260+Plaza+Cir,+West+Palm+Beach,+FL+33404/data=!4m2!3m1!1s0x88d8d4f234f64211:0x4292d655348e98bb?sa=X&ved=0CB0Q8gEwAGoVChMI0dLBtKexxwIVCJ2ACh12iQok">1260 Plaza Circle</a>
                   </p>

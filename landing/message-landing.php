@@ -3,11 +3,13 @@ $name = strip_tags($_POST['name']);
 $email = strip_tags($_POST['email']);
 $phoneNumber = strip_tags($_POST['phoneNumber']);
 $message = strip_tags($_POST['message']);
+# comments input is hidden, only bots would have filled it out
+$blockSpam = strlen($_POST['comments']) > 0;
 $headers = "From: www.cntautocare.com\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-$emailMessage = 
+$emailMessage =
   "<table class='form-email-message'>
       <tr>
         <td>C & T Auto Care</td>
@@ -26,7 +28,9 @@ $emailMessage =
       </tr>
     </table>";
 
-$result = mail("candtautocare@yahoo.com", "C & T Auto Care", $emailMessage, $headers);
+  if (!$blockSpam) {
+    mail("candtautocare@yahoo.com", "C & T Auto Care", $emailMessage, $headers);
+  }
 ?>
 
 <!DOCTYPE html>
